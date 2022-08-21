@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 232);
+}
+
+.container{
+    padding-top: 20%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 60px;
+    color: slategrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.display{
+    font-size: 60px;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.row-button{
+    margin-top: 3%;
+}
+
+.click-button{
+    width: 150px;
+    height: 40px;
+    margin: 20px 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+    border-width: 3px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.click-button:hover{
+    background-color:rgb(180, 180, 180); 
+}
+
+
+.click-button:active{
+    background-color:rgb(255, 255, 255); 
+}
